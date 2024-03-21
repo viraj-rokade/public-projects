@@ -1,2 +1,2 @@
-# public-projects
-Public Deployable Projects
+# Public Projects
+This repository is for all my public deployable projects.
