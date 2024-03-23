@@ -1,8 +1,27 @@
-.main {
-  width: 100%;
+@font-face {
+  font-family: "JandaManateeBubble";
+  src: local("JandaManateeBubble"),
+    url("./fonts/JandaManateeBubble.ttf") format("truetype");
 }
 
-.main-container {
+@font-face {
+  font-family: "JandaManateeSolid";
+  src: local("JandaManateeSolid"),
+    url("./fonts/JandaManateeSolid.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterBlack";
+  src: local("Inter-Black"),
+    url("./fonts/Inter-Black.otf") format("opentype");
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #323232;
   width: 100%;
-  padding: 0;
+  min-height: 100%;
+  color: white;
 }

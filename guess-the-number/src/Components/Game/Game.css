@@ -1,0 +1,13 @@
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: JandaManateeBubble;
+    font-size: 4vw;
+    color: white;
+    padding-top: 2vw;
+}
