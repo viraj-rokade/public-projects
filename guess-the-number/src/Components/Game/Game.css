@@ -37,6 +37,7 @@
 .error-container {
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem;
     justify-content: center;
     font-family: InterBlack;
     font-size: 1.5rem;
@@ -45,4 +46,8 @@
 
 .error-message {
     flex: 1 0 4rem;
+}
+
+p {
+    margin: 0;
 }
